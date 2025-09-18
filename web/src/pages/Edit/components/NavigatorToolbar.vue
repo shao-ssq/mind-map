@@ -1,20 +1,20 @@
 <template>
   <div class="navigatorContainer customScrollbar" :class="{ isDark: isDark }">
-    <div class="item">
-      <el-select
-        v-model="lang"
-        size="small"
-        style="width: 100px"
-        @change="onLangChange"
-      >
-        <el-option
-          v-for="item in langList"
-          :key="item.value"
-          :label="item.name"
-          :value="item.value"
-        />
-      </el-select>
-    </div>
+<!--    <div class="item">-->
+<!--      <el-select-->
+<!--        v-model="lang"-->
+<!--        size="small"-->
+<!--        style="width: 100px"-->
+<!--        @change="onLangChange"-->
+<!--      >-->
+<!--        <el-option-->
+<!--          v-for="item in langList"-->
+<!--          :key="item.value"-->
+<!--          :label="item.name"-->
+<!--          :value="item.value"-->
+<!--        />-->
+<!--      </el-select>-->
+<!--    </div>-->
     <div class="item">
       <el-tooltip
         effect="dark"
@@ -25,60 +25,7 @@
       </el-tooltip>
     </div>
     <div class="item">
-      <div class="btn iconfont iconsousuo" @click="showSearch"></div>
-    </div>
-    <div class="item">
-      <MouseAction :isDark="isDark" :mindMap="mindMap"></MouseAction>
-    </div>
-    <div class="item">
-      <el-tooltip
-        effect="dark"
-        :content="
-          openMiniMap
-            ? $t('navigatorToolbar.closeMiniMap')
-            : $t('navigatorToolbar.openMiniMap')
-        "
-        placement="top"
-      >
-        <div class="btn iconfont icondaohang1" @click="toggleMiniMap"></div>
-      </el-tooltip>
-    </div>
-    <div class="item">
-      <!-- <el-switch
-        v-model="isReadonly"
-        :active-text="$t('navigatorToolbar.readonly')"
-        :inactive-text="$t('navigatorToolbar.edit')"
-        @change="readonlyChange"
-      >
-      </el-switch> -->
-      <el-tooltip
-        effect="dark"
-        :content="
-          isReadonly
-            ? $t('navigatorToolbar.edit')
-            : $t('navigatorToolbar.readonly')
-        "
-        placement="top"
-      >
-        <div
-          class="btn iconfont"
-          :class="[isReadonly ? 'iconyanjing' : 'iconbianji1']"
-          @click="readonlyChange"
-        ></div>
-      </el-tooltip>
-    </div>
-    <div class="item">
-      <Fullscreen :isDark="isDark" :mindMap="mindMap"></Fullscreen>
-    </div>
-    <div class="item">
       <Scale :isDark="isDark" :mindMap="mindMap"></Scale>
-    </div>
-    <div class="item">
-      <div
-        class="btn iconfont"
-        :class="[isDark ? 'iconmoon_line' : 'iconlieri']"
-        @click="toggleDark"
-      ></div>
     </div>
     <!-- <div class="item">
       <el-tooltip
@@ -89,41 +36,38 @@
         <div class="btn iconfont iconyuanma" @click="openSourceCodeEdit"></div>
       </el-tooltip>
     </div> -->
-    <div class="item">
-      <Demonstrate :isDark="isDark" :mindMap="mindMap"></Demonstrate>
-    </div>
-    <div class="item">
-      <el-dropdown @command="handleCommand">
-        <div class="btn el-icon-more"></div>
-        <el-dropdown-menu slot="dropdown">
-          <el-dropdown-item command="shortcutKey">
-            <span class="iconfont iconjianpan"></span>
-            {{ $t('navigatorToolbar.shortcutKeys') }}
-          </el-dropdown-item>
-          <el-dropdown-item command="aiChat">
-            <span class="iconfont iconAIshengcheng"></span>
-            {{ $t('navigatorToolbar.ai') }}
-          </el-dropdown-item>
-          <el-dropdown-item command="client">
-            <span class="iconfont iconxiazai"></span>
-            {{ $t('navigatorToolbar.downloadClient') }}
-          </el-dropdown-item>
-          <el-dropdown-item command="github">
-            <span class="iconfont icongithub"></span>
-            Github
-          </el-dropdown-item>
-          <el-dropdown-item command="site">
-            <span class="iconfont iconwangzhan"></span>
-            {{ $t('navigatorToolbar.site') }}
-          </el-dropdown-item>
-          <el-dropdown-item disabled
-            >{{ $t('navigatorToolbar.current') }}v{{
-              version
-            }}</el-dropdown-item
-          >
-        </el-dropdown-menu>
-      </el-dropdown>
-    </div>
+<!--    <div class="item">-->
+<!--      <el-dropdown @command="handleCommand">-->
+<!--        <div class="btn el-icon-more"></div>-->
+<!--        <el-dropdown-menu slot="dropdown">-->
+<!--          <el-dropdown-item command="shortcutKey">-->
+<!--            <span class="iconfont iconjianpan"></span>-->
+<!--            {{ $t('navigatorToolbar.shortcutKeys') }}-->
+<!--          </el-dropdown-item>-->
+<!--          <el-dropdown-item command="aiChat">-->
+<!--            <span class="iconfont iconAIshengcheng"></span>-->
+<!--            {{ $t('navigatorToolbar.ai') }}-->
+<!--          </el-dropdown-item>-->
+<!--          <el-dropdown-item command="client">-->
+<!--            <span class="iconfont iconxiazai"></span>-->
+<!--            {{ $t('navigatorToolbar.downloadClient') }}-->
+<!--          </el-dropdown-item>-->
+<!--          <el-dropdown-item command="github">-->
+<!--            <span class="iconfont icongithub"></span>-->
+<!--            Github-->
+<!--          </el-dropdown-item>-->
+<!--          <el-dropdown-item command="site">-->
+<!--            <span class="iconfont iconwangzhan"></span>-->
+<!--            {{ $t('navigatorToolbar.site') }}-->
+<!--          </el-dropdown-item>-->
+<!--          <el-dropdown-item disabled-->
+<!--            >{{ $t('navigatorToolbar.current') }}v{{-->
+<!--              version-->
+<!--            }}</el-dropdown-item-->
+<!--          >-->
+<!--        </el-dropdown-menu>-->
+<!--      </el-dropdown>-->
+<!--    </div>-->
   </div>
 </template>
 

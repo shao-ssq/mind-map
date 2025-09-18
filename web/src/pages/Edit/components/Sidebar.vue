@@ -74,7 +74,7 @@ export default {
 .sidebarContainer {
   position: fixed;
   right: -300px;
-  top: 110px;
+  top: 0;
   bottom: 0;
   width: 300px;
   background-color: #fff;
