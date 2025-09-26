@@ -27,6 +27,10 @@
       <!-- 导出 -->
       <div class="toolbarBlock">
         <div class="toolbarBtn" @click="$bus.$emit('showImport')">
+          <span class="icon iconfont iconAIshengcheng ai-gradient" style="background: linear-gradient(135deg, #d897fd, #9a8cfd, #33bcfc);color: white"></span>
+          <span class="text gradient-text">AI生成</span>
+        </div>
+        <div class="toolbarBtn" @click="$bus.$emit('showImport')">
           <span class="icon iconfont icondaoru"></span>
           <span class="text">{{ $t('toolbar.import') }}</span>
         </div>
@@ -505,6 +509,14 @@ export default {
 </script>
 
 <style lang="less" scoped>
+.gradient-text {
+  background: linear-gradient(135deg, #d897fd, #9a8cfd, #33bcfc);
+  -webkit-background-clip: text; /* 让背景应用到文字 */
+  -webkit-text-fill-color: transparent; /* 文字填充透明，显示背景 */
+  background-clip: text; /* 兼容部分浏览器 */
+  color: transparent;
+}
+
 .toolbarContainer {
   &.isDark {
     .toolbar {
