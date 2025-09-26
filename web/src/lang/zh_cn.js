@@ -471,7 +471,7 @@ export default {
     baiduNetdisk: '百度网盘',
     createMindMapTitle: '一键生成思维导图',
     createTip:
-      '请输入一个主题，AI会根据你的主题生成思维导图，如：杭州周末出游计划。',
+      '请输入您的文档或者主题',
     importantTip: '重要提示：一键生成会覆盖现有数据，建议先导出当前数据。',
     wantModifyAiConfigTip: '想要修改AI配置？请点击：',
     modifyAIConfiguration: '修改AI配置',

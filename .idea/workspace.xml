@@ -4,13 +4,289 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18fabeef-adb7-440f-949f-5703fb37d14d" name="Changes" comment="标注AI位置">
+    <list default="true" id="18fabeef-adb7-440f-949f-5703fb37d14d" name="Changes" comment="新增 AI 对话接口">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/config/zh.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/config/zh.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/pages/Edit/components/AiChat.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/pages/Edit/components/AiChat.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/chunk-183b683c.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/chunk-3222d6ee.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/chunk-vendors.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/element-icons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/element-icons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/iconfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/iconfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/fonts/iconfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/-.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/-_1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/-_10.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/-_11.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/-_12.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/-_13.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/-_14.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/-_15.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/-_16.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/-_17.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/-_18.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/-_2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/-_3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/-_4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/-_5.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/-_6.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/-_7.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/-_8.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/-_9.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/DNA.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/OAxitong.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/a-1-shilibiao.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/a-10-yiliaoxiang.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/a-11-yiyongweishengzhi.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/a-12-huxi.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/a-13-xiguan.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/a-14-zhutingqi.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/a-15-bingdu.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/a-16-yiyuan.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/a-17-zhusheqi.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/a-18-xiguan.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/a-19guaizhang.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/a-2-kouzhao.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/a-20-shuye.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/a-3-chuangkoutie.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/a-4-lunyi.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/a-5-mianqian.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/a-6-jiancebi.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/a-7-xinzang.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/a-8-DNA.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/a-9-tizhongcheng.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/a-bitong1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/a-shu2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/a-shu4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/a-shu5.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/a-shuben2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/a-shuben3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/a-shuben4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/a-xueshimao1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/autumn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/avocado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/baichui.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/banshouli.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/bijiben.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/binggan.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/binggun.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/bingqilin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/bitong.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/blackGold.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/blackHumour.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/blueSky.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/boluo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/brainImpairedPink.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/cactus.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/caomei.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/catalogOrganization.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/celianggongju.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/changyongziyuan.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/chengzi.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/chizi.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/chongdian.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/chuchashenpi.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/chuhangshijian.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/chunjie.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/citie.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/classic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/classic10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/classic11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/classic12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/classic13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/classic14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/classic15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/classic2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/classic3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/classic4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/classic5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/classic6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/classic7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/classic8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/classic9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/classicBlue.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/classicGreen.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/coffee.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/courseGreen.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/daima.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/dangao.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/dark.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/dark2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/dark3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/dark4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/dark5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/dark6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/dark7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/darkNightLceBlade.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/default.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/deng.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/dianliushiyan.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/diqiu.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/diqiuyi.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/ditu.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/duanwujie.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/earthYellow.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/ertongjie.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/fanqiejiang.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/fanwendengji.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/fanyi.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/feizhengshiwendengji.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/fengjing.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/fishbone.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/fishbone2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/freshGreen.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/freshRed.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/fuqinjie.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/gaizhui.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/ganenjie.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/gold.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/gongju.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/gonglve.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/gongwenbao.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/gongwenjiaohuan.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/gongzuohuibao.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/greenLeaf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/gudingzichan.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/hanbao.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/hangli.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/heiban.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/huafei.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/huiyi.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/huiyiguanli.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/huiyiyuding.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/hushijie.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/jiandan.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/jiangbei.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/jiaoshijie.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/jiaoxuelou.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/jinpai.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/jipiao.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/jisuan.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/jisuanqi.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/jiudian.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/kafeibei.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/kaoqinguanli.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/lajiao.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/laodongjie.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/lateNightOffice.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/lemonBubbles.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/logicalStructure.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/logicalStructureLeft.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/lvban.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/meishi.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/menpiao.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/mindMap.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/minions.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/mint.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/morandi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/muqinjie.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/naixi.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/naozhong.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/neonLamp.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/niunai.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/nvshengjie.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/orangeJuice.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/oreo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/organizationStructure.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/paishe.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/pingguo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/pinkGrape.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/pisa.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/putao.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/qianbi.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/qianzheng.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/qingrenjie.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/qingxiujiashenqing.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/qixi.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/quqi.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/redSpirit.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/regou.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/rightFishbone.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/rightFishbone2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/romanticPurple.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/rose.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sannianjihua.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/seaBlueLine.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sepan.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/shallowSea.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/shangdian.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/shengdanjie.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/shiyan.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/shouji.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/shuang.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/shuben.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/shutiao.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/shuxie.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/simpleBlack.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/skyGreen.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sousuo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/suanpan.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/sudaqishui.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/taozi.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/tianping.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/tianqi.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/tiantianquan.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/timeline.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/timeline2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/tingzhenqi.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/tiyu.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/tongzhifabu.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/verticalTimeline.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/verticalTimeline2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/verticalTimeline3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/vitalityOrange.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/wenjian.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/xiangjiao.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/xiangmuguanli.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/xianweijing.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/xiaoheiban.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/xiezizhuo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/xigua.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/xilanhua.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/xinxitougao.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/xueshimao.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/yingtao.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/youlechangsuo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/yuandan.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/yuanpan.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/yuanxiaojie.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/yumi.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/yuyanfanyi.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/zhishichanquan.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/zhongqiujie.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/zhongxindongtaifabu.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/zhongyangjie.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/zhuyishixiang.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/ziyuan.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/ziyuan_1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/ziyuan_10.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/ziyuan_11.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/ziyuan_12.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/ziyuan_13.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/ziyuan_14.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/ziyuan_15.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/ziyuan_16.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/ziyuan_17.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/ziyuan_18.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/ziyuan_2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/ziyuan_3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/ziyuan_4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/ziyuan_5.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/ziyuan_6.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/ziyuan_7.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/ziyuan_8.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/ziyuan_9.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/zongheshenpi.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/zuche.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/图片加载失败.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/chunk-183b683c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/chunk-3222d6ee.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/chunk-vendors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/logo.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/lang/zh_cn.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/lang/zh_cn.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/src/pages/Edit/components/AiCreate.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/pages/Edit/components/AiCreate.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/pages/Edit/components/NavigatorToolbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/pages/Edit/components/NavigatorToolbar.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/pages/Edit/components/Sidebar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/pages/Edit/components/Sidebar.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +351,7 @@
       <updated>1758856225142</updated>
       <workItem from="1758856226233" duration="652000" />
       <workItem from="1758866846129" duration="2350000" />
-      <workItem from="1758869896924" duration="7148000" />
+      <workItem from="1758869896924" duration="8837000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目">
       <option name="closed" value="true" />
@@ -109,7 +385,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758871092691</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="新增 AI 对话接口">
+      <option name="closed" value="true" />
+      <created>1758877118984</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1758877118984</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +404,7 @@
     <MESSAGE value="优化右下角图标" />
     <MESSAGE value="修改AI生成图标" />
     <MESSAGE value="标注AI位置" />
-    <option name="LAST_COMMIT_MESSAGE" value="标注AI位置" />
+    <MESSAGE value="新增 AI 对话接口" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增 AI 对话接口" />
   </component>
 </project>

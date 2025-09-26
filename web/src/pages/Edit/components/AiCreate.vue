@@ -37,25 +37,19 @@
       class="createDialog"
       :title="$t('ai.createMindMapTitle')"
       :visible.sync="createDialogVisible"
-      width="450px"
+      width="50%"
       append-to-body
     >
       <div class="inputBox">
         <el-input
           type="textarea"
-          :rows="5"
+          :rows="15"
           :placeholder="$t('ai.createTip')"
           v-model="aiInput"
         >
         </el-input>
         <div class="tip warning">
           {{ $t('ai.importantTip') }}
-        </div>
-        <div class="tip">
-          {{ $t('ai.wantModifyAiConfigTip')
-          }}<el-button size="small" @click="showAiConfigDialog">{{
-            $t('ai.modifyAIConfiguration')
-          }}</el-button>
         </div>
       </div>
       <div slot="footer" class="dialog-footer">
@@ -188,7 +182,6 @@ export default {
       }
     },
 
-    // 检测ai是否可用
     async aiTest() {
       // 检查配置
       if (
@@ -217,11 +210,8 @@ export default {
         throw new Error(this.$t('ai.connectFailed'))
       }
     },
-
-    // AI生成整体
     async aiCrateAll() {
       try {
-        await this.aiTest()
         this.createDialogVisible = true
       } catch (error) {
         console.log(error)
