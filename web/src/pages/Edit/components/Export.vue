@@ -156,7 +156,7 @@ export default {
   data() {
     return {
       dialogVisible: false,
-      exportType: 'png',
+      exportType: 'smm',
       fileName: this.$t('export.defaultFileName'),
       widthConfig: true,
       isTransparent: false,
@@ -178,9 +178,8 @@ export default {
 
     downTypeList() {
       const list = downTypeList[this.$i18n.locale] || downTypeList.zh
-      console.log(list)
       return list.filter(item => {
-        if (item.type === 'mm'|| item.type === 'smm') {
+        if (item.type === 'mm') {
           return false
         }
         if (item.type === 'xlsx') {

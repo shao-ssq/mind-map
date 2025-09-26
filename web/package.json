@@ -16,14 +16,12 @@
     "axios": "^1.7.9",
     "codemirror": "^5.65.16",
     "core-js": "^3.6.5",
-    "dompurify": "^3.2.6",
-    "element-ui": "^2.15.14",
+    "element-ui": "^2.15.1",
     "highlight.js": "^10.7.3",
     "katex": "^0.16.9",
     "simple-mind-map": "^0.14.0-fix.1",
     "simple-mind-map-plugin-themes": "^1.0.0",
     "v-viewer": "^1.6.4",
-    "viewerjs": "^1.11.7",
     "vue": "^2.6.11",
     "vue-i18n": "^8.27.2",
     "vue-router": "^3.5.1",
@@ -49,12 +47,6 @@
     "vue-template-compiler": "^2.6.11",
     "webpack": "^4.44.2",
     "webpack-dynamic-public-path": "^1.0.8"
-  },
-  "overrides": {
-    "lodash": "4.17.21",
-    "@toast-ui/editor": {
-      "dompurify": "3.2.6"
-    }
   },
   "eslintConfig": {
     "root": true,

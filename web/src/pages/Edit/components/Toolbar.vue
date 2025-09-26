@@ -26,9 +26,35 @@
       </div>
       <!-- 导出 -->
       <div class="toolbarBlock">
-        <div class="toolbarBtn" @click="$bus.$emit('showImport')">
-          <span class="icon iconfont iconAIshengcheng ai-gradient" style="background: linear-gradient(135deg, #d897fd, #9a8cfd, #33bcfc);color: white"></span>
-          <span class="text gradient-text">AI生成</span>
+        <div class="toolbarBtn" @click="openDirectory" v-if="!isMobile">
+          <span class="icon iconfont icondakai"></span>
+          <span class="text">{{ $t('toolbar.directory') }}</span>
+        </div>
+        <el-tooltip
+          effect="dark"
+          :content="$t('toolbar.newFileTip')"
+          placement="bottom"
+          v-if="!isMobile"
+        >
+          <div class="toolbarBtn" @click="createNewLocalFile">
+            <span class="icon iconfont iconxinjian"></span>
+            <span class="text">{{ $t('toolbar.newFile') }}</span>
+          </div>
+        </el-tooltip>
+        <el-tooltip
+          effect="dark"
+          :content="$t('toolbar.openFileTip')"
+          placement="bottom"
+          v-if="!isMobile"
+        >
+          <div class="toolbarBtn" @click="openLocalFile">
+            <span class="icon iconfont iconwenjian1"></span>
+            <span class="text">{{ $t('toolbar.openFile') }}</span>
+          </div>
+        </el-tooltip>
+        <div class="toolbarBtn" @click="saveLocalFile" v-if="!isMobile">
+          <span class="icon iconfont iconlingcunwei"></span>
+          <span class="text">{{ $t('toolbar.saveAs') }}</span>
         </div>
         <div class="toolbarBtn" @click="$bus.$emit('showImport')">
           <span class="icon iconfont icondaoru"></span>
@@ -509,14 +535,6 @@ export default {
 </script>
 
 <style lang="less" scoped>
-.gradient-text {
-  background: linear-gradient(135deg, #d897fd, #9a8cfd, #33bcfc);
-  -webkit-background-clip: text; /* 让背景应用到文字 */
-  -webkit-text-fill-color: transparent; /* 文字填充透明，显示背景 */
-  background-clip: text; /* 兼容部分浏览器 */
-  color: transparent;
-}
-
 .toolbarContainer {
   &.isDark {
     .toolbar {
