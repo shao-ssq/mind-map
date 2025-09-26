@@ -43,10 +43,6 @@
             <span class="iconfont iconjianpan"></span>
             {{ $t('navigatorToolbar.shortcutKeys') }}
           </el-dropdown-item>
-          <el-dropdown-item command="aiChat">
-            <span class="iconfont iconAIshengcheng"></span>
-            {{ $t('navigatorToolbar.ai') }}
-          </el-dropdown-item>
         </el-dropdown-menu>
       </el-dropdown>
     </div>

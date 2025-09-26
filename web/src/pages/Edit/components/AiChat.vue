@@ -1,16 +1,6 @@
 <template>
   <Sidebar ref="sidebar" :title="$t('ai.chatTitle')">
     <div class="aiChatBox" :class="{ isDark: isDark }">
-      <div class="chatHeader">
-        <el-button size="mini" @click="clear">
-          <span class="el-icon-delete"></span>
-          {{ $t('ai.clearRecords') }}
-        </el-button>
-        <el-button size="mini" @click="modifyAiConfig">
-          <span class="el-icon-edit"></span>
-          {{ $t('ai.modifyAIConfiguration') }}
-        </el-button>
-      </div>
       <div class="chatResBox customScrollbar" ref="chatResBoxRef">
         <div
           class="chatItem"
@@ -39,6 +29,10 @@
           :placeholder="$t('ai.chatInputPlaceholder')"
           @keydown="onKeydown"
         ></textarea>
+        <el-button class="btnleft"  size="mini" @click="clear">
+          <span class="el-icon-delete"></span>
+          清空
+        </el-button>
         <el-button class="btn" size="mini" @click="send" :loading="isCreating">
           {{ $t('ai.send') }}
           <span class="el-icon-position"></span>
@@ -167,6 +161,14 @@ export default {
 </script>
 
 <style lang="less" scoped>
+.btnleft {
+  justify-content: flex-start !important; /* 内容左对齐 */
+  display: flex !important;
+  position: absolute;
+  left: 12px;
+  bottom: 12px;
+}
+
 .aiChatBox {
   width: 100%;
   height: 100%;
@@ -188,7 +190,7 @@ export default {
   .chatResBox {
     width: 100%;
     height: 100%;
-    padding: 0 12px;
+    padding: 15px 20px;
     margin: 12px 0;
     overflow-y: auto;
     overflow-x: hidden;

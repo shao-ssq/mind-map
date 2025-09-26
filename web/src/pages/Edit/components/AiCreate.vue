@@ -161,7 +161,7 @@ export default {
     document.body.appendChild(this.$refs.aiCreatingMaskRef)
   },
   beforeDestroy() {
-    this.$bus.$off('ai_create_all', this.aiCrateAll)
+    this.$bus.$off('ai_create_all', this.doAiCreate)
     this.$bus.$off('ai_create_part', this.showAiCreatePartDialog)
     this.$bus.$off('ai_chat', this.aiChat)
     this.$bus.$off('ai_chat_stop', this.aiChatStop)
@@ -551,51 +551,55 @@ export default {
     },
 
     // AI对话
-    async aiChat(
-      messageList = [],
-      progress = () => {},
-      end = () => {},
-      err = () => {}
-    ) {
+    async aiChat(messageList = [], progress = () => {}, err = () => {}) {
       try {
-        await this.aiTest()
-        // 发起请求
         this.isAiCreating = true
-        this.aiInstance = new Ai({
-          port: this.aiConfig.port
+
+        // 构造请求数据
+        const payload = {
+          messages: messageList
+        }
+        console.log(messageList)
+        // 发起请求
+        const response = await fetch('http://127.0.0.1:5000/generate', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(payload)
         })
-        this.aiInstance.init('huoshan', this.aiConfig)
-        this.aiInstance.request(
-          {
-            messages: messageList.map(msg => {
-              return {
-                role: 'user',
-                content: msg
-              }
-            })
-          },
-          content => {
-            progress(content)
-          },
-          content => {
-            end(content)
-          },
-          error => {
-            err(error)
+
+        // 假设后端支持流式返回
+        const reader = response.body.getReader()
+        const decoder = new TextDecoder()
+        let done = false
+
+        let aiText = '' // 初始化空字符串
+
+        while (!done) {
+          const { value, done: doneReading } = await reader.read()
+          done = doneReading
+          console.log(done)
+          if (value) {
+            const chunk = decoder.decode(value)
+            aiText += chunk // 累加新内容
+            progress(aiText) // 传递累加后的内容
           }
-        )
+        }
+        this.aiChatStop()
       } catch (error) {
-        console.log(error)
+        console.error(error)
+        err(error) // 调用错误回调
+      } finally {
+        this.aiChatStop()
       }
     },
 
     // AI对话停止
     aiChatStop() {
-      if (this.aiInstance) {
-        this.aiInstance.stop()
-        this.isAiCreating = false
-        this.aiInstance = null
-      }
+      this.aiInstance.stop()
+      this.isAiCreating = false
+      this.aiInstance = null
     }
   }
 }

@@ -517,6 +517,11 @@ export const langList = [
 // 侧边栏列表
 export const sidebarTriggerList = [
   {
+    name: 'AI对话',
+    value: 'ai',
+    icon: 'iconAIshengcheng'
+  },
+  {
     name: '节点样式',
     value: 'nodeStyle',
     icon: 'iconzhuti'

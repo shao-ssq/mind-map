@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18fabeef-adb7-440f-949f-5703fb37d14d" name="Changes" comment="修改AI生成图标">
+    <list default="true" id="18fabeef-adb7-440f-949f-5703fb37d14d" name="Changes" comment="标注AI位置">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/config/zh.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/config/zh.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/pages/Edit/components/AiChat.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/pages/Edit/components/AiChat.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/src/pages/Edit/components/AiCreate.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/pages/Edit/components/AiCreate.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/pages/Edit/components/Toolbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/pages/Edit/components/Toolbar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/pages/Edit/components/NavigatorToolbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/pages/Edit/components/NavigatorToolbar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/pages/Edit/components/Sidebar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/pages/Edit/components/Sidebar.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +75,7 @@
       <updated>1758856225142</updated>
       <workItem from="1758856226233" duration="652000" />
       <workItem from="1758866846129" duration="2350000" />
-      <workItem from="1758869896924" duration="1171000" />
+      <workItem from="1758869896924" duration="7148000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目">
       <option name="closed" value="true" />
@@ -98,7 +101,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758869146568</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="标注AI位置">
+      <option name="closed" value="true" />
+      <created>1758871092691</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1758871092691</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,6 +119,7 @@
     <MESSAGE value="初始化项目" />
     <MESSAGE value="优化右下角图标" />
     <MESSAGE value="修改AI生成图标" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改AI生成图标" />
+    <MESSAGE value="标注AI位置" />
+    <option name="LAST_COMMIT_MESSAGE" value="标注AI位置" />
   </component>
 </project>
