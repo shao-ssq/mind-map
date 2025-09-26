@@ -149,6 +149,7 @@ export default {
   computed: {
     ...mapState(['aiConfig'])
   },
+  // 埋点
   created() {
     this.$bus.$on('ai_create_all', this.aiCrateAll)
     this.$bus.$on('ai_create_part', this.showAiCreatePartDialog)

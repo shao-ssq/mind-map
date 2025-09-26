@@ -26,7 +26,7 @@
       </div>
       <!-- 导出 -->
       <div class="toolbarBlock">
-        <div class="toolbarBtn" @click="$bus.$emit('showImport')">
+        <div class="toolbarBtn" @click="aiCrate">
           <span class="icon iconfont iconAIshengcheng ai-gradient" style="background: linear-gradient(135deg, #d897fd, #9a8cfd, #33bcfc);color: white"></span>
           <span class="text gradient-text">AI生成</span>
         </div>
@@ -286,6 +286,9 @@ export default {
       }
     },
 
+    aiCrate() {
+      this.$bus.$emit('ai_create_all')
+    },
     // 加载本地文件树
     async loadFileTreeNode(node, resolve) {
       try {
