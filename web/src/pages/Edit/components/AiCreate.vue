@@ -225,7 +225,7 @@ export default {
     },
 
     // 确认生成
-    doAiCreate() {
+    async doAiCreate() {
       const aiInputText = this.aiInput.trim()
       if (!aiInputText) {
         this.$message.warning(this.$t('ai.noInputTip'))
@@ -234,41 +234,48 @@ export default {
       this.closeAiCreateDialog()
       this.aiCreatingMaskVisible = true
       // 发起请求
+      console.log(aiInputText)
       this.isAiCreating = true
-      this.aiInstance = new Ai({
-        port: this.aiConfig.port
-      })
-      this.aiInstance.init('huoshan', this.aiConfig)
-      this.mindMap.renderer.setRootNodeCenter()
-      this.mindMap.setData(null)
-      this.aiInstance.request(
-        {
-          messages: [
-            {
-              role: 'user',
-              content: `${this.$t(
-                'ai.aiCreateMsgPrefix'
-              )}${aiInputText}${this.$t('ai.aiCreateMsgPostfix')}`
-            }
-          ]
-        },
-        content => {
-          if (content) {
-            const arr = content.split(/\n+/)
-            this.aiCreatingContent = arr.splice(0, arr.length - 1).join('\n')
-          }
-          this.loopRenderOnAiCreating()
-        },
-        content => {
-          this.aiCreatingContent = content
-          this.resetOnAiCreatingStop()
-        },
-        () => {
-          this.resetOnAiCreatingStop()
-          this.resetOnRenderEnd()
-          this.$message.error(this.$t('ai.generationFailed'))
+      // this.aiInstance = new Ai({
+      //   port: this.aiConfig.port
+      // })
+      //this.aiInstance.init('huoshan', this.aiConfig)
+      // this.mindMap.renderer.setRootNodeCenter()
+      // this.mindMap.setData(null)
+
+
+      try {
+        this.isAiCreating = true;
+
+        // 发起请求
+        const response = await fetch('http://127.0.0.1:5000/generateMind', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({ content: aiInputText })
+        });
+
+        const result = await response.json();
+
+        if (result.result) {
+          const arr = result.result.split(/\n+/);
+          this.aiCreatingContent = arr.splice(0, arr.length - 1).join('\n');
+          this.loopRenderOnAiCreating();
+        } else {
+          this.aiCreatingContent = '';
+          this.$message.error(this.$t('ai.generationFailed'));
         }
-      )
+
+      } catch (err) {
+        console.error(err);
+        this.resetOnAiCreatingStop();
+        this.resetOnRenderEnd();
+        this.$message.error(this.$t('ai.generationFailed'));
+      } finally {
+        this.resetOnAiCreatingStop();
+      }
+
     },
 
     // AI请求完成或出错后需要复位的数据
@@ -549,7 +556,6 @@ export default {
         const payload = {
           messages: messageList
         }
-        console.log(messageList)
         // 发起请求
         const response = await fetch('http://127.0.0.1:5000/generate', {
           method: 'POST',
