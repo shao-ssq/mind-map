@@ -4,96 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18fabeef-adb7-440f-949f-5703fb37d14d" name="Changes" comment="初始化项目">
+    <list default="true" id="18fabeef-adb7-440f-949f-5703fb37d14d" name="Changes" comment="优化右下角图标">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/.eslintrc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/.prettierignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/.prettierrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/bin/createPluginsTypeFiles.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/bin/wsServer.mjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/example/exampleData.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/example/exportFullData.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/full.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/scripts/walkJsFiles.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/constants/constant.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/constants/defaultOptions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/core/command/Command.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/core/command/KeyCommand.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/core/command/keyMap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/core/event/Event.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/core/render/Render.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/core/render/TextEdit.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/core/render/node/MindMapNode.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/core/render/node/Shape.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/core/render/node/Style.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/core/render/node/nodeCommandWraps.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/core/render/node/nodeCooperate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/core/render/node/nodeCreateContents.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/core/render/node/nodeExpandBtn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/core/render/node/nodeExpandBtnPlaceholderRect.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/core/render/node/nodeGeneralization.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/core/render/node/nodeLayout.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/core/render/node/nodeModifyWidth.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/core/render/node/quickCreateChildBtn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/core/view/View.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/layouts/Base.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/layouts/CatalogOrganization.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/layouts/Fishbone.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/layouts/LogicalStructure.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/layouts/MindMap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/layouts/OrganizationStructure.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/layouts/Timeline.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/layouts/VerticalTimeline.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/layouts/fishboneUtils.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/parse/markdown.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/parse/markdownTo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/parse/toMarkdown.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/parse/toTxt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/parse/xmind.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/plugins/AssociativeLine.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/plugins/Cooperate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/plugins/Demonstrate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/plugins/Drag.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/plugins/Export.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/plugins/ExportPDF.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/plugins/ExportXMind.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/plugins/Formula.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/plugins/FormulaStyle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/plugins/KeyboardNavigation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/plugins/MindMapLayoutPro.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/plugins/MiniMap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/plugins/NodeBase64ImageStorage.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/plugins/NodeImgAdjust.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/plugins/OuterFrame.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/plugins/Painter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/plugins/RainbowLines.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/plugins/RichText.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/plugins/Scrollbar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/plugins/Search.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/plugins/Select.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/plugins/TouchEvent.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/plugins/Watermark.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/plugins/associativeLine/associativeLineControls.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/plugins/associativeLine/associativeLineText.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/plugins/associativeLine/associativeLineUtils.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/plugins/outerFrame/outerFrameText.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/plugins/outerFrame/outerFrameUtils.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/svg/btns.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/svg/icons.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/theme/default.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/theme/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/utils/AutoMove.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/utils/BatchExecution.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/utils/Lru.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/utils/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/utils/mersenneTwister.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/utils/simulateCSSBackgroundInCanvas.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/simple-mind-map/src/utils/xmind.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/pages/Edit/components/NavigatorToolbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/pages/Edit/components/NavigatorToolbar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/pages/Edit/components/Toolbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/pages/Edit/components/Toolbar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/pages/Edit/components/ToolbarNodeBtnList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/pages/Edit/components/ToolbarNodeBtnList.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1758856225142</updated>
       <workItem from="1758856226233" duration="652000" />
-      <workItem from="1758866846129" duration="517000" />
+      <workItem from="1758866846129" duration="2274000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目">
       <option name="closed" value="true" />
@@ -167,7 +81,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758856523845</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="优化右下角图标">
+      <option name="closed" value="true" />
+      <created>1758867405277</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1758867405277</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,6 +97,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="初始化项目" />
-    <option name="LAST_COMMIT_MESSAGE" value="初始化项目" />
+    <MESSAGE value="优化右下角图标" />
+    <option name="LAST_COMMIT_MESSAGE" value="优化右下角图标" />
   </component>
 </project>

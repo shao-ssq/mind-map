@@ -4,7 +4,6 @@
       <!-- 节点操作 -->
       <div class="toolbarBlock">
         <ToolbarNodeBtnList :list="horizontalList"></ToolbarNodeBtnList>
-        <!-- 更多 -->
         <el-popover
           v-model="popoverShow"
           placement="bottom-end"
@@ -13,6 +12,7 @@
           v-if="showMoreBtn"
           :style="{ marginLeft: horizontalList.length > 0 ? '20px' : 0 }"
         >
+
           <ToolbarNodeBtnList
             dir="v"
             :list="verticalList"
@@ -26,36 +26,12 @@
       </div>
       <!-- 导出 -->
       <div class="toolbarBlock">
-        <div class="toolbarBtn" @click="openDirectory" v-if="!isMobile">
-          <span class="icon iconfont icondakai"></span>
-          <span class="text">{{ $t('toolbar.directory') }}</span>
+        <div class="toolbarBtn" @click="$bus.$emit('showImport')">
+          <span class="icon iconfont iconAIshengcheng ai-gradient" style="background: linear-gradient(135deg, #d897fd, #9a8cfd, #33bcfc);color: white"></span>
+          <span class="text gradient-text">AI生成</span>
         </div>
-        <el-tooltip
-          effect="dark"
-          :content="$t('toolbar.newFileTip')"
-          placement="bottom"
-          v-if="!isMobile"
-        >
-          <div class="toolbarBtn" @click="createNewLocalFile">
-            <span class="icon iconfont iconxinjian"></span>
-            <span class="text">{{ $t('toolbar.newFile') }}</span>
-          </div>
-        </el-tooltip>
-        <el-tooltip
-          effect="dark"
-          :content="$t('toolbar.openFileTip')"
-          placement="bottom"
-          v-if="!isMobile"
-        >
-          <div class="toolbarBtn" @click="openLocalFile">
-            <span class="icon iconfont iconwenjian1"></span>
-            <span class="text">{{ $t('toolbar.openFile') }}</span>
-          </div>
-        </el-tooltip>
-        <div class="toolbarBtn" @click="saveLocalFile" v-if="!isMobile">
-          <span class="icon iconfont iconlingcunwei"></span>
-          <span class="text">{{ $t('toolbar.saveAs') }}</span>
-        </div>
+      </div>
+      <div class="toolbarBlock">
         <div class="toolbarBtn" @click="$bus.$emit('showImport')">
           <span class="icon iconfont icondaoru"></span>
           <span class="text">{{ $t('toolbar.import') }}</span>
@@ -68,7 +44,6 @@
           <span class="icon iconfont iconexport"></span>
           <span class="text">{{ $t('toolbar.export') }}</span>
         </div>
-        <!-- 本地文件树 -->
         <div
           class="fileTreeBox"
           v-if="fileTreeVisible"
@@ -116,14 +91,14 @@
                     size="mini"
                     v-if="data.enableEdit"
                     @click="editLocalFile(data)"
-                    >编辑</el-button
+                  >编辑</el-button
                   >
                   <el-button
                     type="text"
                     size="mini"
                     v-else
                     @click="importLocalFile(data)"
-                    >导入</el-button
+                  >导入</el-button
                   >
                 </div>
               </span>
@@ -535,6 +510,13 @@ export default {
 </script>
 
 <style lang="less" scoped>
+.gradient-text {
+  font-weight: bold;
+  background: linear-gradient(135deg, #d897fd, #9a8cfd, #33bcfc); /* 粉色 → 淡蓝色 */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .toolbarContainer {
   &.isDark {
     .toolbar {

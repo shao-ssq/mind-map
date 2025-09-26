@@ -178,17 +178,6 @@
         <span class="icon iconfont iconwaikuang"></span>
         <span class="text">{{ $t('toolbar.outerFrame') }}</span>
       </div>
-      <div
-        v-if="item === 'ai'"
-        class="toolbarBtn"
-        :class="{
-          disabled: hasGeneralization
-        }"
-        @click="aiCrate"
-      >
-        <span class="icon iconfont iconAIshengcheng"></span>
-        <span class="text">{{ $t('toolbar.ai') }}</span>
-      </div>
     </template>
   </div>
 </template>
