@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18fabeef-adb7-440f-949f-5703fb37d14d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/copy.js" beforeDir="false" afterPath="$PROJECT_DIR$/copy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js-sdk-pro.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/nginx.conf" afterDir="false" />
+    <list default="true" id="18fabeef-adb7-440f-949f-5703fb37d14d" name="Changes" comment="初始化项目">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/simple-mind-map/.eslintrc.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/simple-mind-map/.prettierignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/simple-mind-map/.prettierrc" beforeDir="false" />
@@ -100,92 +93,7 @@
       <change beforePath="$PROJECT_DIR$/simple-mind-map/src/utils/mersenneTwister.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/simple-mind-map/src/utils/simulateCSSBackgroundInCanvas.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/simple-mind-map/src/utils/xmind.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/.prettierignore" beforeDir="false" afterPath="$PROJECT_DIR$/web/.prettierignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/.prettierrc" beforeDir="false" afterPath="$PROJECT_DIR$/web/.prettierrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/babel.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/web/pnpm-lock.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/public/js-sdk-pro.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/scripts/ai.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/scripts/ai.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/scripts/createNodeImageList.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/scripts/createNodeImageList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/scripts/updateVersion.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/scripts/updateVersion.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/api/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/assets/icon-font/iconfont.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/assets/icon-font/iconfont.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/components/ImgUpload/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/components/ImgUpload/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/components/ImgUpload/style.less" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/components/ImgUpload/style.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/config/constant.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/config/constant.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/config/en.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/config/en.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/config/icon.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/config/icon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/config/image.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/config/image.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/config/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/config/vi.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/config/vi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/config/zh.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/config/zh.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/config/zhtw.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/config/zhtw.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/i18n.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/i18n.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/lang/en_us.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/lang/en_us.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/lang/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/lang/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/lang/vi_vn.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/lang/vi_vn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/lang/zh_cn.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/lang/zh_cn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/lang/zh_tw.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/lang/zh_tw.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/pages/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/pages/Doc.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/pages/Edit/Index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/pages/Edit/Index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/pages/Edit/components/AiChat.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/pages/Edit/components/AiChat.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/pages/Edit/components/AiConfigDialog.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/pages/Edit/components/AiConfigDialog.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/pages/Edit/components/AiCreate.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/pages/Edit/components/AiCreate.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/pages/Edit/components/AssociativeLineStyle.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/pages/Edit/components/AssociativeLineStyle.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/pages/Edit/components/BaseStyle.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/pages/Edit/components/BaseStyle.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/pages/Edit/components/Color.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/pages/Edit/components/Color.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/pages/Edit/components/Contextmenu.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/pages/Edit/components/Contextmenu.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/pages/Edit/components/Count.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/pages/Edit/components/Count.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/pages/Edit/components/Demonstrate.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/pages/Edit/components/Demonstrate.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/pages/Edit/components/Edit.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/pages/Edit/components/Edit.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/pages/Edit/components/Export.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/pages/Edit/components/Export.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/pages/Edit/components/FormulaSidebar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/pages/Edit/components/FormulaSidebar.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/pages/Edit/components/Fullscreen.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/pages/Edit/components/Fullscreen.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/pages/Edit/components/Import.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/pages/Edit/components/Import.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/pages/Edit/components/MouseAction.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/pages/Edit/components/MouseAction.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/pages/Edit/components/Navigator.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/pages/Edit/components/Navigator.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/src/pages/Edit/components/NavigatorToolbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/pages/Edit/components/NavigatorToolbar.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/pages/Edit/components/NodeHyperlink.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/pages/Edit/components/NodeHyperlink.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/pages/Edit/components/NodeIcon.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/pages/Edit/components/NodeIcon.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/pages/Edit/components/NodeIconSidebar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/pages/Edit/components/NodeIconSidebar.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/pages/Edit/components/NodeIconToolbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/pages/Edit/components/NodeIconToolbar.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/pages/Edit/components/NodeImage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/pages/Edit/components/NodeImage.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/pages/Edit/components/NodeImgPlacementToolbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/pages/Edit/components/NodeImgPlacementToolbar.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/pages/Edit/components/NodeImgPreview.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/pages/Edit/components/NodeImgPreview.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/pages/Edit/components/NodeNote.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/pages/Edit/components/NodeNote.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/pages/Edit/components/NodeNoteContentShow.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/pages/Edit/components/NodeNoteContentShow.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/pages/Edit/components/NodeNoteSidebar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/pages/Edit/components/NodeNoteSidebar.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/pages/Edit/components/NodeOuterFrame.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/pages/Edit/components/NodeOuterFrame.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/pages/Edit/components/NodeTag.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/pages/Edit/components/NodeTag.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/pages/Edit/components/NodeTagStyle.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/pages/Edit/components/NodeTagStyle.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/pages/Edit/components/Outline.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/pages/Edit/components/Outline.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/pages/Edit/components/OutlineEdit.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/pages/Edit/components/OutlineEdit.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/pages/Edit/components/OutlineSidebar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/pages/Edit/components/OutlineSidebar.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/pages/Edit/components/RichTextToolbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/pages/Edit/components/RichTextToolbar.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/pages/Edit/components/Scale.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/pages/Edit/components/Scale.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/pages/Edit/components/Scrollbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/pages/Edit/components/Scrollbar.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/pages/Edit/components/Search.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/pages/Edit/components/Search.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/pages/Edit/components/Setting.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/pages/Edit/components/Setting.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/pages/Edit/components/ShortcutKey.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/pages/Edit/components/ShortcutKey.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/pages/Edit/components/Sidebar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/pages/Edit/components/Sidebar.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/pages/Edit/components/SidebarTrigger.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/pages/Edit/components/SidebarTrigger.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/pages/Edit/components/Structure.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/pages/Edit/components/Structure.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/pages/Edit/components/Style.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/pages/Edit/components/Style.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/pages/Edit/components/Theme.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/pages/Edit/components/Theme.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/pages/Edit/components/Toolbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/pages/Edit/components/Toolbar.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/pages/Edit/components/ToolbarNodeBtnList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/pages/Edit/components/ToolbarNodeBtnList.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/style/outlineTree.less" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/style/outlineTree.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/utils/ai.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/utils/ai.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/utils/handleClipboardText.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/utils/handleClipboardText.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/utils/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/utils/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/utils/loading.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/utils/loading.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/vue.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,21 +103,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "shao-ssq"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;shao-ssq&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/shao-ssq/mind-map.git",
-    "accountId": "b3fa8611-6d90-4c3f-b7d8-c22575c727f6"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/shao-ssq/mind-map.git&quot;,
+    &quot;accountId&quot;: &quot;b3fa8611-6d90-4c3f-b7d8-c22575c727f6&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="33Dem5jhEVtOKxRb5kaWEdJGHW0" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -224,8 +132,11 @@
     "git-widget-placeholder": "main",
     "last_opened_file_path": "D:/VSWorkspace/mind-map",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "D:\\VSWorkspace\\mind-map\\web\\node_modules\\prettier",
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
     "ts.external.directory.path": "D:\\Program Files\\JetBrains\\WebStorm 2025.2.2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
@@ -245,11 +156,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1758856225142</updated>
-      <workItem from="1758856226233" duration="198000" />
+      <workItem from="1758856226233" duration="652000" />
+      <workItem from="1758866846129" duration="517000" />
     </task>
+    <task id="LOCAL-00001" summary="初始化项目">
+      <option name="closed" value="true" />
+      <created>1758856523845</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1758856523845</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="初始化项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="初始化项目" />
   </component>
 </project>
