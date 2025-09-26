@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18fabeef-adb7-440f-949f-5703fb37d14d" name="Changes" comment="删除填写API操作">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/pages/Edit/components/AiCreate.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/pages/Edit/components/AiCreate.vue" afterDir="false" />
-    </list>
+    <list default="true" id="18fabeef-adb7-440f-949f-5703fb37d14d" name="Changes" comment="AI生成思维导图" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,7 +68,7 @@
       <updated>1758856225142</updated>
       <workItem from="1758856226233" duration="652000" />
       <workItem from="1758866846129" duration="2350000" />
-      <workItem from="1758869896924" duration="11745000" />
+      <workItem from="1758869896924" duration="12076000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目">
       <option name="closed" value="true" />
@@ -121,7 +118,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758878917797</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="AI生成思维导图">
+      <option name="closed" value="true" />
+      <created>1758881986840</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1758881986840</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +150,7 @@
     <MESSAGE value="标注AI位置" />
     <MESSAGE value="新增 AI 对话接口" />
     <MESSAGE value="删除填写API操作" />
-    <option name="LAST_COMMIT_MESSAGE" value="删除填写API操作" />
+    <MESSAGE value="AI生成思维导图" />
+    <option name="LAST_COMMIT_MESSAGE" value="AI生成思维导图" />
   </component>
 </project>
