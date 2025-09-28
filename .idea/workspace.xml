@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="18fabeef-adb7-440f-949f-5703fb37d14d" name="Changes" comment="AI生成思维导图">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/web/pnpm-lock.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/pages/Edit/components/AiCreate.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/pages/Edit/components/AiCreate.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +73,7 @@
       <workItem from="1758869896924" duration="12076000" />
       <workItem from="1759048285900" duration="363000" />
       <workItem from="1759048672982" duration="119000" />
-      <workItem from="1759048847840" duration="614000" />
+      <workItem from="1759048847840" duration="997000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目">
       <option name="closed" value="true" />
@@ -134,7 +131,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758881986840</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="AI生成思维导图">
+      <option name="closed" value="true" />
+      <created>1759049762146</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1759049762146</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
