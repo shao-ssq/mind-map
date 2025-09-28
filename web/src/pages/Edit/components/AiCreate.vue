@@ -248,7 +248,7 @@ export default {
         this.isAiCreating = true;
 
         // 发起请求
-        const response = await fetch('http://127.0.0.1:5000/generateMind', {
+        const response = await fetch('http://172.21.3.56:5000/generateMind', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json'
@@ -557,7 +557,7 @@ export default {
           messages: messageList
         }
         // 发起请求
-        const response = await fetch('http://127.0.0.1:5000/generate', {
+        const response = await fetch('http://172.21.3.56:5000/generate', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json'
