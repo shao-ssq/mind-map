@@ -27,6 +27,9 @@
     &quot;accountId&quot;: &quot;b3fa8611-6d90-4c3f-b7d8-c22575c727f6&quot;
   }
 }</component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/simple-mind-map/package.json" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -74,6 +77,9 @@
       <workItem from="1759048285900" duration="363000" />
       <workItem from="1759048672982" duration="119000" />
       <workItem from="1759048847840" duration="997000" />
+      <workItem from="1759994093731" duration="49000" />
+      <workItem from="1760064968409" duration="3000" />
+      <workItem from="1760097165474" duration="592000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目">
       <option name="closed" value="true" />
