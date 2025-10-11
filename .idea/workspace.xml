@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18fabeef-adb7-440f-949f-5703fb37d14d" name="Changes" comment="AI生成思维导图" />
+    <list default="true" id="18fabeef-adb7-440f-949f-5703fb37d14d" name="Changes" comment="AI生成思维导图">
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,7 +80,7 @@
       <workItem from="1759994093731" duration="49000" />
       <workItem from="1760064968409" duration="3000" />
       <workItem from="1760097165474" duration="592000" />
-      <workItem from="1760180035693" duration="45000" />
+      <workItem from="1760180035693" duration="158000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目">
       <option name="closed" value="true" />
@@ -144,7 +146,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759049762146</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="AI生成思维导图">
+      <option name="closed" value="true" />
+      <created>1760180087160</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1760180087160</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
