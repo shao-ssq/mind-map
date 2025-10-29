@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18fabeef-adb7-440f-949f-5703fb37d14d" name="Changes" comment="AI生成思维导图">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/pages/Edit/components/AiCreate.vue" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/pages/Edit/components/AiCreate.vue" afterDir="false" />
+    <list default="true" id="18fabeef-adb7-440f-949f-5703fb37d14d" name="Changes" comment="支持流式生成">
+      <change beforePath="$PROJECT_DIR$/dist/css/chunk-083c5077.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/chunk-083c5077.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +85,7 @@
       <workItem from="1760097165474" duration="592000" />
       <workItem from="1760180035693" duration="241000" />
       <workItem from="1760327409411" duration="3000" />
-      <workItem from="1761740465436" duration="1883000" />
+      <workItem from="1761740465436" duration="1922000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目">
       <option name="closed" value="true" />
@@ -165,7 +167,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760180262791</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="支持流式生成">
+      <option name="closed" value="true" />
+      <created>1761742360683</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1761742360684</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +200,7 @@
     <MESSAGE value="新增 AI 对话接口" />
     <MESSAGE value="删除填写API操作" />
     <MESSAGE value="AI生成思维导图" />
-    <option name="LAST_COMMIT_MESSAGE" value="AI生成思维导图" />
+    <MESSAGE value="支持流式生成" />
+    <option name="LAST_COMMIT_MESSAGE" value="支持流式生成" />
   </component>
 </project>
