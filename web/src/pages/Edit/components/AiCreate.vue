@@ -234,19 +234,9 @@ export default {
       this.closeAiCreateDialog()
       this.aiCreatingMaskVisible = true
       // 发起请求
-      console.log(aiInputText)
       this.isAiCreating = true
-      // this.aiInstance = new Ai({
-      //   port: this.aiConfig.port
-      // })
-      //this.aiInstance.init('huoshan', this.aiConfig)
-      // this.mindMap.renderer.setRootNodeCenter()
-      // this.mindMap.setData(null)
-
 
       try {
-        this.isAiCreating = true;
-
         // 发起请求
         const response = await fetch('http://172.21.3.56:5000/generateMind', {
           method: 'POST',
@@ -254,28 +244,51 @@ export default {
             'Content-Type': 'application/json'
           },
           body: JSON.stringify({ content: aiInputText })
-        });
+        })
 
-        const result = await response.json();
-
-        if (result.result) {
-          const arr = result.result.split(/\n+/);
-          this.aiCreatingContent = arr.splice(0, arr.length - 1).join('\n');
-          this.loopRenderOnAiCreating();
-        } else {
-          this.aiCreatingContent = '';
-          this.$message.error(this.$t('ai.generationFailed'));
+        if (!response.ok || !response.body) {
+          throw new Error('No response body')
         }
 
-      } catch (err) {
-        console.error(err);
-        this.resetOnAiCreatingStop();
-        this.resetOnRenderEnd();
-        this.$message.error(this.$t('ai.generationFailed'));
-      } finally {
-        this.resetOnAiCreatingStop();
-      }
+        // 创建 reader 流式读取返回内容
+        const reader = response.body.getReader()
+        const decoder = new TextDecoder('utf-8')
+        let buffer = ''
 
+        // eslint-disable-next-line no-constant-condition
+        while (true) {
+          const { done, value } = await reader.read()
+          if (done) break
+
+          buffer += decoder.decode(value, { stream: true })
+
+          // 处理服务端推送的内容（按换行分割）
+          const lines = buffer.split(/\n/)
+          buffer = lines.pop() // 可能是未完整的一行，暂存
+
+          for (const line of lines) {
+            if (!this.isAiCreating) {
+              console.log("你好")
+              return
+            }
+            if (line.includes('[DONE]')) {
+              this.resetOnAiCreatingStop()
+              return
+            }
+
+            // 实时拼接显示
+            this.aiCreatingContent += line + '\n'
+            // 如果有额外渲染逻辑，比如分块动画显示
+            this.loopRenderOnAiCreating?.()
+          }
+        }
+      } catch (err) {
+        this.resetOnAiCreatingStop()
+        this.resetOnRenderEnd()
+        this.$message.error(this.$t('ai.generationFailed'))
+      } finally {
+        this.resetOnAiCreatingStop()
+      }
     },
 
     // AI请求完成或出错后需要复位的数据
@@ -296,7 +309,6 @@ export default {
 
     // 停止生成
     stopCreate() {
-      this.aiInstance.stop()
       this.isAiCreating = false
       this.aiCreatingMaskVisible = false
       this.$message.success(this.$t('ai.stoppedGenerating'))
